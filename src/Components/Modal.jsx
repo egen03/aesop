@@ -1,16 +1,16 @@
 import React from 'react';
 import './Styles/shoppingCartModal.css'
 
+// const element = 
+
 const Modal = (props) => {
   return (
     <div className="modalBackground">
 
-      <div 
+      <div
         className="modal"
-        style={{
-          opacity: props.hidden? '0':'1'
-        }}
         >
+
 
         <button 
         className="closeModal" 

@@ -1,14 +1,13 @@
-// import React from 'react';
-import './Styles/shoppingCartModal.css'
-
 import React, { Component } from 'react';
+import './Styles/shoppingCartModal.css'
 import Modal from './Modal';
 
 class ShoppingCartModal extends Component {
-  constructor(){
-    super()
+  constructor(props){
+    super(props)
+    this.elementRef = React.createRef();
     this.state ={
-      hidden: false
+      hidden: props.clicked
     };
   }
 

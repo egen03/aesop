@@ -1,11 +1,16 @@
 import React from 'react';
 import './Styles/topBanner.css'
+import ShoppingCartModal from './ShoppingCartModal';
 
 
 const TopBanner = (props) => {
   return (
     <div className="bannerContainer">
-      <button className="bannerButton">
+      {props.clicked ? <ShoppingCartModal clicked={false} /> : null}
+      <button 
+        className="bannerButton"
+        onClick={props.func}
+        >
         <div className="bannerText">
           {props.text}
         </div>
