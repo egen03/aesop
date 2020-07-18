@@ -1,58 +1,35 @@
-import React from 'react';
+// import React from 'react';
 import './Styles/shoppingCartModal.css'
 
-const ShoppingCartModal = () => {
-  return (
-    <div className="modalBackground">
+import React, { Component } from 'react';
+import Modal from './Modal';
 
-      <div className="modal">
+class ShoppingCartModal extends Component {
+  constructor(){
+    super()
+    this.state ={
+      hidden: false
+    };
+  }
 
-        <button className="closeModal" aria-label="Close Shopping Cart">×</button>
+  closeModal = () => {
+    this.setState({
+      hidden: true
+    })
+  };
 
-        <div className="modalContent">
-          {/* REPLACE WITH ERICA'S SUBTITLE */}
-          <div className="subtitle">Shipping fees and delivery times</div>
-
-          <span className="lineBreak" />
-
-          <div className="afterLine">
-
-            <div className="content">
-              {/* REPLACE WITH ERICA'S SUBTITLE */}
-              <div className="subtitle">Standard Shipping</div>
-              <span>Complimentary</span>
-            </div>
-
-            <div className="content2">
-              <span>2-4 business days</span>
-              <span>Order by December 16, 11:59PM EDT to ensure delivery by December 24</span>
-            </div>
-
-          </div>
-
-          <span className="lineBreak" />
-
-          <div className="afterLine">
-
-            <div className="content">
-              {/* REPLACE WITH ERICA'S SUBTITLE */}
-              <div className="subtitle">Next Day Shipping</div>
-              <span>$35</span>
-            </div>
-
-            <div className="content">
-              <span>Order by 12PM ET for delivery on the next working day</span>
-            </div>
-
-          </div>
-          <span className="lineBreak" />
-        </div>
-
+  render() { 
+    return (
+      <div>
+        {this.state.hidden ? null : 
+          <Modal
+            hidden={this.state.hidden}
+            closeModal={this.closeModal}
+          ></Modal>
+        }
       </div>
-
-
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default ShoppingCartModal;
