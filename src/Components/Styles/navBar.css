@@ -1,5 +1,5 @@
 .navBar{
-  border: red solid;
+  /* border: red solid; */
   display: flex;
   justify-content: space-between;
   align-items: baseline;

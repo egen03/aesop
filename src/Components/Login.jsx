@@ -4,7 +4,7 @@ import './Styles/login.css'
 const Login = () => {
   return (
     <div className="flex">
-      <button>Login</button>
+      <button className="login">Login</button>
       <div className="dot"></div>
     </div>
   );
