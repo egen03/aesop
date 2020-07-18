@@ -1,0 +1,31 @@
+.footer{
+    
+}
+
+.cluster{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerlinks{
+    list-style: none;
+}
+
+input {
+    border:none;
+    border-bottom: 1px solid lightgray;
+}
+
+.blackBar{
+    border: solid black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 3vh;
+    color: blanchedalmond;
+}
+
+.usa{
+    padding-right: 2vw;
+}
