@@ -1,9 +1,9 @@
-button {
+.login {
   border: none;
   outline: none;
   background-color: transparent;
-  /* margin-top: 3vh; */
 }
+
 .dot{
   border-radius: 100%;
   width: 1px;

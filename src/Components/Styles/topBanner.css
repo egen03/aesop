@@ -1,0 +1,28 @@
+.bannerContainer{
+  display: flex;
+  justify-content: center;
+  height: 4vh;
+  padding-top: 2vh;
+  background-color: #212121;
+}
+
+.bannerButton{
+  display: flex;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 60%;
+  background-color: transparent;
+  padding-bottom: 2.5vh;
+  padding-left: 0;
+  padding-right: 0.5%;
+  color: #CFCFCF;
+}
+
+.bannerButton:hover{
+  border-bottom: solid 2px;
+}
+
+.plusSign{
+  margin-left: 2vw;
+}
