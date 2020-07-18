@@ -1,0 +1,102 @@
+.modalBackground{
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.modal{
+  /* border: tomato solid; */
+  z-index: 2;
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F2F0E9;
+}
+
+.modalContent{
+  /* border: tomato solid; */
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 25vh;
+  color: #423F3D;
+  font-family: "Suisse Medium", sans-serif;
+  font-size: 14px;
+}
+
+.content{
+  font-family: "Suisse Regular", sans-serif;
+}
+
+.closeModal{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 1vw;
+  align-self: flex-end;
+  font-family: "Suisse Regular", sans-serif;
+  font-size: 22px;
+}
+
+.lineBreak{
+  display: inline-block;
+  border: solid 1px;
+  width: 100%;
+  color: #D7D4CD;
+}
+
+.modalContent .lineBreak{
+  display: inline-block;
+  border: solid 0.5px;
+  background-color: #D7D4CD;
+  width: 100%;
+  color: #D7D4CD;
+}
+
+.subtitle{
+  font-weight: bold;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content span {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content2 span{
+  /* border: tomato solid; */
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.modalContent span{
+  color: #84817F;
+}
+
+.afterLine{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

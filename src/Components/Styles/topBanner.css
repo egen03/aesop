@@ -6,6 +6,10 @@
   background-color: #212121;
 }
 
+.bannerText{
+  width: 100%;
+}
+
 .bannerButton{
   display: flex;
   border: none;
