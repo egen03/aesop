@@ -1,5 +1,28 @@
+.quote{
+    height: 40vh;
+    width: 100vw;
+    background-color: #FFFEF2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderline{
+    border-bottom: 1px solid lightgray;
+    width: 100vw;
+}
+
 .footer{
-    
+    background-color: #FFFEF2;
+    margin-top: vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.emailslot{
+    padding-left: 2vw;
 }
 
 .cluster{
@@ -8,10 +31,22 @@
 }
 
 .footerlinks{
-    list-style: none;
+   padding-right: 4vw;
+   padding-left: 4vw;
+   padding-bottom: 4vw;
+    
+}
+
+span{
+    color: gray;    
+}
+
+.folink{
+    font-weight: bold;
 }
 
 input {
+    background-color: #FFFEF2;
     border:none;
     border-bottom: 1px solid lightgray;
 }
@@ -24,6 +59,7 @@ input {
     width: 100vw;
     height: 3vh;
     color: blanchedalmond;
+    font-size: 10px;
 }
 
 .usa{
