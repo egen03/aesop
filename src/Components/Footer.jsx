@@ -5,6 +5,16 @@ class Footer extends Component {
     render() {
         return (
             <div>
+
+                <div className="discover">
+                    <div>
+                        <div className="distext">
+                            <div className="kits"></div>
+                            <div className="care"></div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="quote">
                     
                         <p>'And your very flesh shall be a great poem'</p>
@@ -14,6 +24,7 @@ class Footer extends Component {
                 </div>
 
                 <div className="borderline"></div>
+
                 <div className="footer">
                     <div className="emailslot"> 
                         <p>I would like to receive communications about Aesop  productions, services, stores and events and matters <br />of cultural interest.
@@ -43,13 +54,14 @@ class Footer extends Component {
                     
                         <div className="footerlinks">
                             <p> <span>Social</span> </p>
-                            <p className="folink">Instagram <br />Twitter <br />Linkedin</p>
+                            <p className="folink">Instagram ↗<br />Twitter ↗<br />Linkedin ↗</p>
                         </div>
 
 
                     </div>
                     
                 </div>
+                
                 <div className="blackBar">
                         <div>&copy;	Aesop</div>
                         <div className="usa">United States</div> 

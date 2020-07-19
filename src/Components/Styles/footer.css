@@ -1,3 +1,9 @@
+.discover{
+    height: 40vh;
+    width: 100vw;
+    background-color: #FFFEF2;
+}
+
 .quote{
     height: 40vh;
     width: 100vw;
@@ -19,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 12px;
+    
 }
 
 .emailslot{
@@ -42,10 +49,11 @@ span{
 }
 
 .folink{
-    font-weight: bold;
+    font-weight: 500;
 }
 
 input {
+    font-size: 24px;
     background-color: #FFFEF2;
     border:none;
     border-bottom: 1px solid lightgray;
