@@ -4,6 +4,7 @@ import './Styles/shoppingCartModal.css'
 // const element = 
 
 const Modal = (props) => {
+  
   return (
     <div className="modalBackground">
 

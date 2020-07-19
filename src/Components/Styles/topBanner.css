@@ -1,15 +1,11 @@
 .bannerContainer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 4vh;
   padding-top: 2vh;
   background-color: #212121;
 }
-
-.bannerText{
-  width: 100%;
-}
-
 .bannerButton{
   display: flex;
   border: none;
@@ -23,10 +19,15 @@
   color: #CFCFCF;
 }
 
+.bannerText{
+  width: 100%;
+}
+
+
 .bannerButton:hover{
   border-bottom: solid 2px;
 }
 
 .plusSign{
-  margin-left: 2vw;
+  margin-left: -25vw;
 }
