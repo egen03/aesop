@@ -1,17 +1,38 @@
 .discover{
-    height: 50vh;
+    height: 30vh;
     width: 100vw;
     background-color: #FFFEF2;
     display: flex;
-    align-items: baseline;
+    padding-top: 5vh;
+    font-size: 14px;
+}
+
+.dismore{
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .nashville{
-    width: 40%;
-    height: 40%;
+    width: 27vw;
+    height: 26vh;
+    background-image: url(https://www.aesop.com/medias/Aesop-Range-Page-Secondary-Discover-More-Desktop-1860x969px.png?context=bWFzdGVyfGltYWdlc3wzNTUzNTN8aW1hZ2UvcG5nfGltYWdlcy9oNjQvaDhjLzkxMDk1OTg4NjMzOTAucG5nfDkzOGI3MWE4MTA0Y2NjMmU5YmEwMzcyYzcwMDhjNTU0ZmQ5NTdiOGI5OWM4NTJkZTgwODVlYTNiOGE3MzQ5N2Q);
+    background-size: 100% 100%;
+    margin-right: 13vw;
+    margin-left: 2vw;
+}
+
+.distext{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.kits{
+    padding-right: 20vw;
 }
 
 .quote{
+    font-size: 24px;
     height: 40vh;
     width: 100vw;
     background-color: #FFFEF2;
