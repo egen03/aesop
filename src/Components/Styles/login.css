@@ -1,0 +1,21 @@
+.login {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.dot{
+  border-radius: 100%;
+  width: 1px;
+  height: 1px;
+  border: solid;
+  background-color: black;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.flex{
+  display: flex;
+  align-items: baseline;
+
+}
