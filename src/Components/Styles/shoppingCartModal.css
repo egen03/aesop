@@ -96,7 +96,7 @@
   color: #D7D4CD;
 }
 
-.subtitle{
+.modalContent + .subtitle{
   font-weight: bold;
   margin-top: 2vh;
   margin-bottom: 2vh;

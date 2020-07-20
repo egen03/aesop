@@ -7,11 +7,15 @@
   position: fixed;
   width: 100vw;
   z-index: 5;
-  color: #CFCFCF;
+  color: #FFFEF2;
+  font-family: "Suisse Medium", sans-serif;
+  font-size: 14px;
+  padding: 2vw;
 }
 .links{
   display: flex;
   list-style: none;
+  margin-left: -5vw;
 }
 li {
   padding: 2vw;

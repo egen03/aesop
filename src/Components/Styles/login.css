@@ -1,8 +1,10 @@
 .login {
+  /* margin-right: 2vw; */
   border: none;
   outline: none;
   background-color: transparent;
-  color: #CFCFCF;
+  font-size: 14px;
+  color: #FFFEF2;
 }
 
 .dot{
@@ -11,12 +13,11 @@
   height: 1px;
   border: solid;
   background-color: black;
-  margin-right: 2vw;
+  margin-right: 6vw;
   margin-left: 2vw;
 }
 
 .flex{
   display: flex;
   align-items: baseline;
-
 }
