@@ -8,8 +8,14 @@ class Footer extends Component {
 
                 <div className="discover">
                     <div>
+                        <img className="nashville" src={require("/Users/Student_PSXGA136/Desktop/cassini/mod2/projects/Aesop/aesop/src/assets/images/nashville.png")} alt=""/>
+                    </div>
+                    <div>
                         <div className="distext">
-                            <div className="kits"></div>
+                            <div className="kits">
+                                <p>Discover More</p>
+                                <p></p>
+                            </div>
                             <div className="care"></div>
                         </div>
                     </div>

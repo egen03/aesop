@@ -1,7 +1,14 @@
 .discover{
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     background-color: #FFFEF2;
+    display: flex;
+    align-items: baseline;
+}
+
+.nashville{
+    width: 40%;
+    height: 40%;
 }
 
 .quote{
