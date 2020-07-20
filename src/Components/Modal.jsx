@@ -1,8 +1,6 @@
 import React from 'react';
 import './Styles/shoppingCartModal.css'
 
-// const element = 
-
 const Modal = (props) => {
   
   return (

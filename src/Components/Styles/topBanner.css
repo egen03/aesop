@@ -1,21 +1,25 @@
 .bannerContainer{
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   height: 4vh;
   padding-top: 2vh;
   background-color: #212121;
 }
 .bannerButton{
-  display: flex;
+  /* border: salmon solid; */
   border: none;
+  display: flex;
   outline: none;
   cursor: pointer;
-  height: 60%;
+  min-width: 28%;
+  height: 100%;
   background-color: transparent;
-  padding-bottom: 2.5vh;
+  margin-bottom: 2.5vh;
   padding-left: 0;
   padding-right: 0.5%;
+  /* border-bottom: solid 2px; */
   color: #CFCFCF;
 }
 
@@ -29,5 +33,5 @@
 }
 
 .plusSign{
-  margin-left: -25vw;
+  margin-left: 5vw;
 }

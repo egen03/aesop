@@ -3,7 +3,11 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  z-index: 5;
+  color: #CFCFCF;
 }
 .links{
   display: flex;
