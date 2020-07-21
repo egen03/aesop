@@ -1,39 +1,35 @@
 import React from 'react';
 import './Styles/shoppingCartModal.css'
+import Subtitle from './Subtitle'
 
 const Modal = (props) => {
-  
+
   return (
     <div className="modalBackground">
 
-      <div
-        className="modal"
-        >
+      <div className="modal">
 
-
-        <button 
-        className="closeModal" 
-        aria-label="Close Shopping Cart"
-        onClick={props.closeModal}
+        <button
+          className="closeModal"
+          aria-label="Close Shopping Cart"
+          onClick={props.closeModal}
         >×</button>
 
         <div className="modalContent">
-          {/* REPLACE WITH ERICA'S SUBTITLE */}
-          <div className="subtitle">Shipping fees and delivery times</div>
+          <Subtitle subtitle="Shipping fees and delivery times" />
 
           <span className="lineBreak" />
 
           <div className="afterLine">
 
             <div className="content">
-              {/* REPLACE WITH ERICA'S SUBTITLE */}
-              <div className="subtitle">Standard Shipping</div>
-              <span>Complimentary</span>
+              <Subtitle subtitle="Standard Shipping" />
+              <Subtitle subtitle="Complimentary" />
             </div>
 
             <div className="content2">
-              <span>2-4 business days</span>
-              <span>Order by December 16, 11:59PM EDT to ensure delivery by December 24</span>
+              <Subtitle subtitle="2-4 business days" />
+              <Subtitle subtitle="Order by December 16, 11:59PM EDT to ensure delivery by December 24" />
             </div>
 
           </div>
@@ -44,12 +40,12 @@ const Modal = (props) => {
 
             <div className="content">
               {/* REPLACE WITH ERICA'S SUBTITLE */}
-              <div className="subtitle">Next Day Shipping</div>
-              <span>$35</span>
+              <Subtitle subtitle="Next Day Shipping" />
+              <Subtitle subtitle="$35" />
             </div>
 
-            <div className="content">
-              <span>Order by 12PM ET for delivery on the next working day</span>
+            <div className="content2">
+              <Subtitle subtitle="Order by 12PM ET for delivery on the next working day" />
             </div>
 
           </div>

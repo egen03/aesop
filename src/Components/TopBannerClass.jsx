@@ -11,25 +11,7 @@ class TopBannerClass extends Component {
     }
   }
 
-  // toggleCart = () => {
-  //   let evalClick = false;
-  //   if(toggleCart === 0) {
-  //     evalClick = false;
-  //   } else if (toggleCart === 1) {
-  //     evalClick = true;
-  //   }
-
-  //   if(toggleCart === 0){
-  //     toggleCart = 1;
-  //   } else if (toggleCart === 1) {
-  //     toggleCart = 0;
-  //   }
-  //   return evalClick
-  // }
-
   clickForCart = () => {
-    console.log("if I show up it claims ive been clicked")
-    // let toggle = this.toggleCart()
     this.state.clicked ? this.setState({clicked: false}) : this.setState({clicked: true})
   }
 

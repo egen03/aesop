@@ -11,19 +11,22 @@
   /* border: salmon solid; */
   border: none;
   display: flex;
+  justify-content: center;
   outline: none;
   cursor: pointer;
-  min-width: 28%;
   height: 100%;
+  border-left: 0;
+  border-right: 0;
+  padding: 0;
   background-color: transparent;
   margin-bottom: 2.5vh;
-  padding-left: 0;
-  padding-right: 0.5%;
-  /* border-bottom: solid 2px; */
+  border-bottom: transparent;
+  transition: border-bottom 1s;
   color: #CFCFCF;
 }
 
 .bannerText{
+  /* border: solid; */
   width: 100%;
 }
 
@@ -33,5 +36,7 @@
 }
 
 .plusSign{
-  margin-left: 5vw;
+  /* border:  solid; */
+  /* align-self: baseline; */
+  margin-left: 1vw;
 }

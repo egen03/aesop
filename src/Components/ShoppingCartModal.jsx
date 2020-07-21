@@ -5,16 +5,17 @@ import Modal from './Modal';
 class ShoppingCartModal extends Component {
   constructor(props){
     super(props)
-    this.elementRef = React.createRef();
     this.state ={
       hidden: props.clicked
     };
   }
 
   closeModal = () => {
-    this.setState({
-      hidden: true
-    })
+    // setTimeout(() => {
+      this.setState({
+        hidden: true
+      })
+    // }, 3000)
   };
 
   render() { 
