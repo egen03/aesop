@@ -91,9 +91,10 @@ input {
     border: solid black;
     background-color: black;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100vw;
-    height: 3vh;
+    height: 5vh;
     color: blanchedalmond;
     font-size: 10px;
 }
