@@ -1,7 +1,7 @@
 .landingContainer{
   /* border: blue solid; */
   display: flex;
-  position: relative;
+  position: fixed;
   justify-content: center;
   
 }
