@@ -3,11 +3,11 @@
   /* border: yellow solid; */
   position: fixed;
   width: 100vw;
-  height: 45vh;
+  height: 35vh;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-top: 50vh;
+  margin-bottom: 100vh;
 }
 
 .icon{
