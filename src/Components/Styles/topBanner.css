@@ -3,12 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 4vh;
-  padding-top: 2vh;
+  height: 5vh;
+  padding-top: 1vh;
   background-color: #212121;
 }
 .bannerButton{
-  border: salmon solid;
+  /* border: salmon solid; */
   border: none;
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 .bannerText{
-  border: solid;
+  /* border: solid; */
   width: 100%;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .plusSign{
-  border:  solid;
+  /* border:  solid; */
   align-self: baseline;
   margin-left: 1vw;
 }

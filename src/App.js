@@ -5,7 +5,7 @@ import FixedIcon from './Components/FixedIcon'
 import Landing from './Components/Landing'
 import TopBannerClass from './Components/TopBannerClass'
 import Footer from './Components/Footer'
-// import SmCarousel from './Components/SmCarousel'
+import SmCarousel from './Components/SmCarousel'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Landing/>
       <div><FixedIcon/></div>
 
-      {/* <SmCarousel/> */}
+      <SmCarousel/>
 
 
 
