@@ -36,7 +36,7 @@ function SmCarousel() {
           <img
             className="d-block w-100"
             // src="./images/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png"
-            src={require("./images/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png")}
+            src={require("projects/Aesop/aesop/src/assets/images/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png")}
             alt="First slide"
           />
           <div>
@@ -48,28 +48,28 @@ function SmCarousel() {
           <img
             className="d-block w-100"
             // src="./images/daily_products/Aesop-Body-Body-Cleansing-Slab-310g-Carton-Large-1584x962px.png"
-            src={require("./images/daily_products/Aesop-Body-Body-Cleansing-Slab-310g-Carton-Large-1584x962px.png")}
+            src={require("projects/Aesop/aesop/src/assets/images/daily_products/Aesop-Body-Body-Cleansing-Slab-310g-Carton-Large-1584x962px.png")}
           />
         </div>
         <div>
           <img
             className="d-block w-100"
             // src="./images/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png"
-            src={require("./images/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png")}
+            src={require("projects/Aesop/aesop/src/assets/images/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png")}
           />
         </div>
         <div>
           <img
             className="d-block w-100"
             // src="./images/daily_products/Aesop-Body-Geranium-Leaf-Body-Scrub-180mL-large.png"
-            src={require("./images/daily_products/Aesop-Body-Geranium-Leaf-Body-Scrub-180mL-large.png")}
+            src={require("projects/Aesop/aesop/src/assets/images/daily_products/Aesop-Body-Geranium-Leaf-Body-Scrub-180mL-large.png")}
           />
         </div>
         <div>
           <img
             className="d-block w-100"
             // src="./images/daily_products/Aesop-Body-Redemption-Body-Scrub-180mL-large.png"
-            src={require("./images/daily_products/Aesop-Body-Redemption-Body-Scrub-180mL-large.png")}
+            src={require("projects/Aesop/aesop/src/assets/images/daily_products/Aesop-Body-Redemption-Body-Scrub-180mL-large.png")}
           />
         </div>
         <div>

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Styles/landing.css';
 import '../assets/images/Aesop-Homepage-Banner.jpg';
-import Title from './Title.jsx';
-import Subtitle from './Subtitle.jsx';
+import Title from './Title.js';
+import Subtitle from './Subtitle.js';
 import Logo from './Logo';
 
 const Landing = () => {
