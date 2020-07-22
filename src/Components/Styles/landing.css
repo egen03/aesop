@@ -9,7 +9,7 @@
 
 .titleContainer{
   z-index: 4;
-  border: slateblue solid;
+  /* border: slateblue solid; */
   display: flex;
   flex-direction: row;
   align-items: center;
