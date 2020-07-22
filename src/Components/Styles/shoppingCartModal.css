@@ -1,7 +1,7 @@
  .modalBackground{
   margin-left: -50vw;
   margin-top: -3vh;
-  z-index: 1000000;
+  z-index: 1000;
   position: fixed;
   width: 102vw;
   height: 103vh;
@@ -10,7 +10,7 @@
 
  .modal{ 
   border: tomato solid;
-  margin-left: -38vw;
+  /* margin-left: -38vw; */
   z-index: 20000;
   width: 50vw;
   height: 103vh;
@@ -23,17 +23,14 @@
   animation: inLeft 1s;
 }
 
-.animate{
-}
-
 @keyframes inLeft {
   from {
-      left: -100vw;
+      left: 100vw;
       opacity: 0
   }
 
   to {
-      left: 0;
+      left: 100vw;
       opacity: 1
   }
 }
