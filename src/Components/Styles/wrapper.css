@@ -1,0 +1,16 @@
+.nbContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+}
+
+.test {
+  z-index: 20;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.landContainer {
+  z-index: 19;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}

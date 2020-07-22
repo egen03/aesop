@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./lgCarousel.css"
+import "../Components/Styles/lgCarousel.css"
 
 function LgCarousel() {
   return (
@@ -11,7 +11,7 @@ function LgCarousel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./images/bigImg/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg")}
+              src={require("../assets/images/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg")}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -22,7 +22,7 @@ function LgCarousel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./images/bigImg/Aesop-Downtown-LA-Carousel-3-Desktop-2560x1440px.jpg")}
+              src={require("../assets/images/Aesop-Downtown-LA-Carousel-3-Desktop-2560x1440px.jpg")}
               alt="Third slide"
             />
 
@@ -34,7 +34,7 @@ function LgCarousel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./images/bigImg/Aesop-Fashion-Valley-Carousel-1-Desktop-2560x1440px.jpg")}
+              src={require("../assets/images/Aesop-Fashion-Valley-Carousel-1-Desktop-2560x1440px.jpg")}
               alt="Third slide"
             />
 
@@ -48,7 +48,7 @@ function LgCarousel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./images/bigImg/Aesop-Free-Market-Carousel-1-Desktop-2560x1440px.png")}
+              src={require("../assets/images/Aesop-Free-Market-Carousel-1-Desktop-2560x1440px.png")}
               alt="Third slide"
             />
 
@@ -62,7 +62,7 @@ function LgCarousel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./images/bigImg/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png")}
+              src={require("../assets/images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png")}
               alt="Third slide"
             />
 

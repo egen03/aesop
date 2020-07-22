@@ -1,0 +1,121 @@
+.megaDiv{
+    position: relative;
+}
+
+.discover{
+    height: 30vh;
+    width: 100vw;
+    background-color: #FFFEF2;
+    display: flex;
+    padding-top: 5vh;
+    font-size: 14px;
+}
+
+.dismore{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nashville{
+    width: 27vw;
+    height: 26vh;
+    background-image: url(https://www.aesop.com/medias/Aesop-Range-Page-Secondary-Discover-More-Desktop-1860x969px.png?context=bWFzdGVyfGltYWdlc3wzNTUzNTN8aW1hZ2UvcG5nfGltYWdlcy9oNjQvaDhjLzkxMDk1OTg4NjMzOTAucG5nfDkzOGI3MWE4MTA0Y2NjMmU5YmEwMzcyYzcwMDhjNTU0ZmQ5NTdiOGI5OWM4NTJkZTgwODVlYTNiOGE3MzQ5N2Q);
+    background-size: 100% 100%;
+    margin-right: 13vw;
+    margin-left: 2vw;
+}
+
+.distext{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.kits{
+    padding-right: 20vw;
+}
+
+.quote{
+    font-size: 24px;
+    height: 40vh;
+    width: 100vw;
+    background-color: #FFFEF2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderline{
+    border-bottom: 1px solid lightgray;
+    width: 100vw;
+}
+
+.footer{
+    background-color: #FFFEF2;
+    margin-top: vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    
+}
+
+.emailslot{
+    padding-left: 2vw;
+}
+
+.cluster{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerlinks{
+   padding-right: 3vw;
+   padding-left: 4vw;
+   padding-bottom: 4vw;
+    
+}
+
+span{
+    color: gray;    
+}
+
+.folink{
+    font-weight: 500;
+}
+
+.folink{
+    text-decoration: none;
+}
+
+input {
+    font-size: 24px;
+    background-color: #FFFEF2;
+    border:none;
+    border-bottom: 1px solid lightgray;
+}
+
+.blackBar{
+    border: solid black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 5vh;
+    color: blanchedalmond;
+    font-size: 10px;
+}
+
+.usa{
+    padding-right: 2vw;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover{
+      font-weight: 600;
+  }

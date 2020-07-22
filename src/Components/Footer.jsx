@@ -4,7 +4,7 @@ import './Styles/footer.css';
 class Footer extends Component {
     render() {
         return (
-            <div>
+            <div className="megaDiv">
 
                 <div className="discover">
                     <div className="nashville"></div>

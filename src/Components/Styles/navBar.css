@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: baseline;
   background-color: transparent;
-  position: fixed;
+  position: relative;
   width: 100vw;
   color: #FFFEF2;
   font-family: "Suisse Medium", sans-serif;
@@ -38,5 +38,3 @@
 .linkName:hover::after {
   width: 100%
 }
-
-/* .linkName:: */

@@ -2,12 +2,14 @@
   z-index: 10000;
   /* border: yellow solid; */
   position: fixed;
-  width: 100vw;
-  height: 45vh;
+  width: 7vw;
+  height: 7vh;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-top: 50vh;
+  margin-top: 10vh;
+  margin-left: 160vh;
+
 }
 
 .icon{
@@ -22,7 +24,7 @@
   justify-content: center;
   align-content: center;
   margin-right: 4vh;
-  margin-bottom: 6vh;
+  /* margin-bottom: 6vh; */
 }
 
 .svg{

@@ -1,11 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-import './App.css';
-import NavBar from './Components/NavBar';
-import FixedIcon from './Components/FixedIcon'
-import Landing from './Components/Landing'
-import TopBannerClass from './Components/TopBannerClass'
-=======
 // import logo from './logo.svg';
 import './App.css';
 // import NavBar from './Components/NavBar';
@@ -19,17 +12,10 @@ import Skincarebtn from './Components/Skincarebtn';
 import Imgtitle from './Components/Imgtitle';
 import Imgsubtitle from './Components/Imgsubtitle';
 
->>>>>>> 6daae8cff37249c0fa8513fed536a7001cceaa8c
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      <TopBannerClass/>
-      <NavBar/>
-      <Landing/>
-      <FixedIcon/>
-=======
       {/* <NavBar/> */}
 {/* PAGE 1 OF WIREFRAME */}
       <Subtitle subtitle="Aesop essentials" />
@@ -138,13 +124,9 @@ function App() {
 </div> */}
    
 
->>>>>>> 6daae8cff37249c0fa8513fed536a7001cceaa8c
     </div>
   );
 }
 
 export default App;
-<<<<<<< HEAD
-=======
  
->>>>>>> 6daae8cff37249c0fa8513fed536a7001cceaa8c
