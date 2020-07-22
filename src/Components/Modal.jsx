@@ -1,6 +1,6 @@
 import React from 'react';
 import './Styles/shoppingCartModal.css'
-import Subtitle from './Subtitle'
+import Subtitle from './Subtitle.js'
 
 const Modal = (props) => {
 
