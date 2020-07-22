@@ -1,0 +1,42 @@
+.navBar {
+  /* border: red solid; */
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  color: #FFFEF2;
+  font-family: "Suisse Medium", sans-serif;
+  font-size: 14px;
+  padding: 2vw;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  margin-left: -5vw;
+}
+
+.navBar .linkName {
+  padding-left: 2vw;
+  padding-top: 0;
+  padding-bottom: 0;
+  cursor: pointer;
+}
+
+.linkName::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0.5px;
+  background: #FFFEF2;
+  transition: width .3s;
+}
+
+.linkName:hover::after {
+  width: 100%
+}
+
+/* .linkName:: */

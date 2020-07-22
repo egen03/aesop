@@ -1,0 +1,42 @@
+.bannerContainer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 4vh;
+  padding-top: 2vh;
+  background-color: #212121;
+}
+.bannerButton{
+  /* border: salmon solid; */
+  border: none;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  height: 100%;
+  border-left: 0;
+  border-right: 0;
+  padding: 0;
+  background-color: transparent;
+  margin-bottom: 2.5vh;
+  border-bottom: transparent;
+  transition: border-bottom 1s;
+  color: #CFCFCF;
+}
+
+.bannerText{
+  /* border: solid; */
+  width: 100%;
+}
+
+
+.bannerButton:hover{
+  border-bottom: solid 2px;
+}
+
+.plusSign{
+  /* border:  solid; */
+  /* align-self: baseline; */
+  margin-left: 1vw;
+}
