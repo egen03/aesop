@@ -12,10 +12,11 @@
   position: fixed;
   width: 100vw;
   height: 0;
-  background-image: url("../../assets/images/Aesop-Homepage-Banner.jpg");
+  background-image: url("../../assets/images/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   padding-top: 32.6%;
+  margin-right: 25vw;
 }
 
 .titleContainer{
