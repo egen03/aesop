@@ -5,11 +5,13 @@
   align-items: baseline;
 
 }
+
 .links{
   display: flex;
   list-style: none;
 }
-li {
+
+.navLinks {
   padding: 2vw;
   padding-top: 0;
   padding-bottom: 0;
