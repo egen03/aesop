@@ -1,0 +1,95 @@
+.row2 {
+    background-color: #fffef2;
+    padding-top: 100px;
+    display: flex;
+    height: 75vh;    
+}
+
+.row2text{
+    margin: 30px;   
+}
+
+.row2imagecontainer{
+    
+    width: 95vw;
+    height: 50vh;
+    padding-top: 5vh;
+}
+
+.row2image{
+    background-image: url(assets/images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png);
+    height: 100%;
+    background-position: center;   
+    
+
+}
+    
+
+.row4{
+    background-color: #fffef2;
+    display: flex;
+    justify-content: space-between;
+    height: 75vh;
+}
+
+.row4text{
+    margin: 20px;
+    padding: 20px;
+}
+
+.row4imagecontainer{
+    width: 65vw;
+    height: 54vh;
+    padding-top: 8vh;
+    
+}
+
+.row4image{
+    background-image: url(assets/images/OdyessyPic1.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+
+.row6{
+    background-color: #fffef2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row6text1{
+    margin: 20px;
+    padding: 20px;
+}
+
+.row6text2{
+    padding: 20px;  
+    width: 58vw; 
+}
+
+.row8{
+    background-color: #fffef2;
+    display: flex;
+    
+}
+
+.row8image{
+    border: black solid;
+    float: left;
+}
+
+.row8text1{
+    width: 33%;
+    height: 60%;
+    border: black solid;
+    float: left;
+    text-align: center;
+}
+
+.row8text2{
+    background-color: #fffef2;
+    width: 32%;
+    border: black solid;
+    float: left;
+    text-align: center;
+}
