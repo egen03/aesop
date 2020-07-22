@@ -7,8 +7,8 @@
 }
 
 .landing{
-  z-index: -3;
-  /* border: rgb(71, 255, 80) solid; */
+  /* z-index: -3; */
+  border: rgb(71, 255, 80) solid;
   position: fixed;
   width: 100vw;
   height: 0;
@@ -20,7 +20,7 @@
 
 .titleContainer{
   z-index: 4;
-  /* border: slateblue solid; */
+  border: slateblue solid;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
