@@ -7,6 +7,7 @@ class ShoppingCartModal extends Component {
     super(props)
     this.state ={
       hidden: props.clicked
+      // hidden: false
     };
   }
 
@@ -21,12 +22,14 @@ class ShoppingCartModal extends Component {
   render() { 
     return (
       <div>
-        {this.state.hidden ? null : 
-          <Modal
-            hidden={this.state.hidden}
-            closeModal={this.closeModal}
-          ></Modal>
-        }
+        <div className="modalGrid">
+          {this.state.hidden ? null : 
+            <Modal
+              hidden={this.state.hidden}
+              closeModal={this.closeModal}
+            ></Modal>
+          }
+        </div>
       </div>
     );
   }

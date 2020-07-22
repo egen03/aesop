@@ -12,12 +12,12 @@ import Giftbtn from './Components/Giftbtn';
 // import Bodybtn from './Components/Bodybtn';
 import Storebtn from './Components/Storebtn';
 // import Skincarebtn from './Components/Skincarebtn';
-// import Imgtitle from './Components/Imgtitle';
-// import Imgsubtitle from './Components/Imgsubtitle';
+import Imgtitle from './Components/Imgtitle';
+import Imgsubtitle from './Components/Imgsubtitle';
 import Subtitle from './Components/Subtitle';
 import Title from './Components/Title';
 import LgCarousel from './Components/LgCarousel';
-
+import Modal from './Components/Modal'
 
 
 function App() {
@@ -39,8 +39,9 @@ function App() {
             <div className="row2">
       
       <div className="row2text">
-      <Title title="Five mythical Gift Kits" />
-      <Description description="Crafted for gods, mortals, and muses alike, our new Gift Kit collection makes for inspired gift giving this festive season." />
+      <Title identifier="title" title="Five mythical Gift Kits" />
+      <Description description="Crafted for gods, mortals, and muses alike, our new" />
+      <Description description="Gift Kit collection makes for inspired gift giving this festive season."/>
       <Giftbtn />
       </div>
 
@@ -56,7 +57,7 @@ function App() {
      <div className="row4">
       
       <div className="row4text">
-      <Title title="An odyssey of gifts, for generous and inspired giving" />
+      <Title identifier="title" title="An odyssey of gifts, for generous and inspired giving" />
       <Subtitle subtitle="Seasonal Gift Kits" />
       <Subtitle subtitle="Aesop favorites" />
       <Subtitle subtitle="Small gestures" />

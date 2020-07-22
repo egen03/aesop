@@ -1,10 +1,10 @@
 import React from 'react'
-// import subtitle from './Styles/subtitle.css';
+import './Styles/subtitle.css';
 
 function Subtitle(props) {
     return (
         <div>
-            <p className="subtitle">{props.subtitle}</p>
+            <p className={props.identifier}>{props.subtitle}</p>
         </div>
     )
 }

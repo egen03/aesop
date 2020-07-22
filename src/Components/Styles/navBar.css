@@ -10,6 +10,7 @@
   color: #FFFEF2;
   font-family: "Suisse Medium", sans-serif;
   font-size: 14px;
+  font-weight: 600;
   padding: 2vw;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .navBar .linkName {
-  padding-left: 2vw;
+  padding-left: 3vw;
   padding-top: 0;
   padding-bottom: 0;
   cursor: pointer;

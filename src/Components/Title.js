@@ -1,10 +1,10 @@
 import React from 'react'
-// import title from './Styles/title.css';
+import title from './Styles/title.css';
 
 function Title(props) {
     return (
         <div>
-            <p className="title">{props.title}</p>
+            <p className={props.identifier}>{props.title}</p>
         </div>
     )
 }

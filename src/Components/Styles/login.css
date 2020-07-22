@@ -2,8 +2,10 @@
   border: none;
   outline: none;
   background-color: transparent;
-  font-size: 14px;
   color: #FFFEF2;
+  font-family: "Suisse Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .dot{
@@ -12,7 +14,7 @@
   height: 1px;
   border: solid;
   background-color: black;
-  margin-right: 5vw;
+  margin-right: 2vw;
   margin-left: 2vw;
 }
 

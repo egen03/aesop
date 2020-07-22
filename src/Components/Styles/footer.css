@@ -1,5 +1,7 @@
 .megaDiv{
     position: relative;
+    margin-top: 15vh;
+    font-family: 'Suisse Medium', sans-serif;
 }
 
 .discover{
@@ -111,11 +113,13 @@ input {
     padding-right: 2vw;
 }
 
-a{
-    color: inherit;
+.footerlinks a{
+    color: #333333;
     text-decoration: none;
-  }
+}
 
-  a:hover{
-      font-weight: 600;
-  }
+.footerlinks a:hover{
+    color: #333333;
+    text-decoration: none;
+    font-weight: 600;
+}

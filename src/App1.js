@@ -18,9 +18,6 @@ function App() {
     <div className="App">
       {/* <NavBar/> */}
 {/* PAGE 1 OF WIREFRAME */}
-      <Subtitle subtitle="Aesop essentials" />
-      <Title title="A selection of staples" />
-      <Description description="From beloved formulations first created decades ago to personal care necessities."/>
 
 {/* PAGE 2 OF WIREFRAME */}
       <div className="row2">

@@ -1,46 +1,59 @@
 .row2 {
     background-color: #fffef2;
-    padding-top: 100px;
+    margin-top: 20vh;
     display: flex;
-    height: 75vh;    
+    height: 85vh; 
+    /* border: solid; */
+
 }
 
 .row2text{
-    margin: 30px;   
+    /* border: solid; */
+    /* width: 50%; */
+    margin-left: 6vw;
+    margin-top: 4vh;
+    margin-right: 8vw;
+    /* border: */
+    /* margin: 16vw;    */
 }
 
 .row2imagecontainer{
-    
-    width: 95vw;
-    height: 50vh;
-    padding-top: 5vh;
+
+    width: 73vw;
+    height: 70vh;
+    padding-top: 4vh;
+    /* padding-bottom: */
 }
 
 .row2image{
+    /* border: solid; */
     background-image: url(assets/images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png);
     height: 100%;
     background-position: center;   
-    
-
+    background-size: 100%;
 }
     
 
 .row4{
+    /* border: solid; */
+    margin-top: 20vh;
+
     background-color: #fffef2;
     display: flex;
     justify-content: space-between;
-    height: 75vh;
+    height: 85vh;
 }
 
 .row4text{
-    margin: 20px;
-    padding: 20px;
+    margin-left: 6vw;
+    margin-top: 4vh;
 }
 
 .row4imagecontainer{
-    width: 65vw;
-    height: 54vh;
-    padding-top: 8vh;
+    /* border: solid; */
+    width: 62vw;
+    height: 70vh;
+    margin-top: 6vh;
     
 }
 
@@ -48,22 +61,25 @@
     background-image: url(assets/images/OdyessyPic1.png);
     height: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;    
+    background-size: 100%;  
 }
 
 .row6{
     background-color: #fffef2;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
 }
 
 .row6text1{
-    margin: 20px;
-    padding: 20px;
+    margin-left: 6vw;
+    margin-top: 4vh;
 }
 
 .row6text2{
-    padding: 20px;  
+    padding-top: 2vh;
+    margin-right: 1vw;  
     width: 58vw; 
 }
 
@@ -84,6 +100,7 @@
     border: black solid;
     float: left;
     text-align: center;
+    
 }
 
 .row8text2{

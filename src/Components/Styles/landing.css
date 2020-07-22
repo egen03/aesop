@@ -1,10 +1,16 @@
 .landingContainer{
   /* border: blue solid; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   position: relative;
   /* justify-content: center; */
   
+}
+
+/* For the modal in shoppingCartModal */
+.modalGrid {
+  grid-column: 1/4;
+  grid-row: 1/2;
 }
 
 .titleContainer{
@@ -35,14 +41,14 @@
   /* margin-bottom: 12vh; */
 }
 
-.wordsContainer .title{
+.wordsContainer .titleOther{
   /* border: solid; */
   width: 50vw;
   font-size: 2vw;
   margin: 0%;
 }
 
-.wordsContainer .subtitle{
+.wordsContainer .subtitleOther{
   font-size: 2vh;
   margin-top: 1%;
 }
@@ -50,7 +56,7 @@
 .logo {
   grid-column: 1/3;
   width: 7vw;
-  margin-left: 2vw;
+  margin-left: 3vw;
   margin-right: 15vw;
 
 }

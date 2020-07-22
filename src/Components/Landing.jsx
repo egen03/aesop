@@ -11,8 +11,8 @@ const Landing = () => {
       <div className="titleContainer">
         <Logo/>
         <div className="wordsContainer">
-          <Title title="Formulations for skin, hair, home and body"/>
-          <Subtitle subtitle="Created with sensory pleasure in mind"/>
+          <Title identifier="titleOther" title="Formulations for skin, hair, home and body"/>
+          <Subtitle identifier="subtitleOther" subtitle="Created with sensory pleasure in mind"/>
         </div>
       </div>
       <span className="landing">
