@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./smcarousel.css"
+import "../Components/Styles/smcarousel.css";
 
 const responsive = {
   superLargeDesktop: {

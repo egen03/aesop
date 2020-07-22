@@ -1,5 +1,5 @@
 .navBar {
-  border: red solid;
+  /* border: red solid; */
   z-index: 5;
   display: flex;
   justify-content: space-between;
@@ -7,7 +7,7 @@
   background-color: transparent;
   position: relative;
   width: 100vw;
-  /* color: #FFFEF2; */
+  color: #FFFEF2;
   font-family: "Suisse Medium", sans-serif;
   font-size: 14px;
   padding: 2vw;
