@@ -1,0 +1,32 @@
+.iconContainer{
+  z-index: 10000;
+  /* border: yellow solid; */
+  position: fixed;
+  width: 100vw;
+  height: 45vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 50vh;
+}
+
+.icon{
+  border: none;
+  background-color: #212121;
+  border-radius: 100%;
+  min-width: 3vw;
+  max-width: 3vw;
+  min-height: 3vw;
+  max-height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 4vh;
+  margin-bottom: 6vh;
+}
+
+.svg{
+  padding-top: 1vh;
+  width: 2vw;
+  fill: white;
+}

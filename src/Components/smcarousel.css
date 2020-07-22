@@ -1,0 +1,49 @@
+body{
+  background-color:#FFFEF2;
+}
+
+.sampleSlide img{
+  display: flex;
+  justify-content: center;
+   height: 45vh; 
+}
+
+.carouselItem{
+display: flex;
+flex-direction: column;
+align-items: center ;
+justify-content: center ;
+
+}
+
+.react-multiple-carousel__arrow {
+border-radius: 0;
+}
+
+.react-multi-carousel-dot button {
+  border-radius: 0;
+  
+  padding: 0;
+  margin: 0vh;
+  height: .35vh;
+  width: 13vw;
+  border-top:#FFFEF2;
+  border-bottom:#FFFEF2;
+border-left: white;
+border-right: white;
+
+}
+
+.react-multi-carousel li {
+  background-color: #cccccc;
+  border: black solid 2px;
+}
+.react-multi-carousel-item{
+
+  display: flex;
+  align-items:top ;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
