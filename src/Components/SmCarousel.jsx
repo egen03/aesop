@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import Imgtitle from "./Imgtitle.jsx";
+// import Imgtitle from "./Imgtitle.jsx";
 import Imgsubtitle from "./Imgsubtitle.jsx";
 import Title from "./Title.js";
 import Subtitle from "./Subtitle.js";
@@ -29,7 +29,7 @@ const responsive = {
   },
 };
 
-function SmCarousel() {
+function SmCarousel(props) {
   return (
     <div>
       <Carousel  focusOnSelect = "false"  showDots="true" className="sampleSlide" responsive={responsive}>
